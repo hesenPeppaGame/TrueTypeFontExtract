@@ -1,0 +1,7 @@
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\bin\Debug\TrueTypeFontExtract.exe.config
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\bin\Debug\TrueTypeFontExtract.exe
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\bin\Debug\TrueTypeFontExtract.pdb
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\obj\Debug\TrueTypeFontExtract.csprojAssemblyReference.cache
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\obj\Debug\TrueTypeFontExtract.csproj.CoreCompileInputs.cache
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\obj\Debug\TrueTypeFontExtract.exe
+C:\PeppaHeSen\TrueTypeFontExtract\TrueTypeFontExtract\TrueTypeFontExtract\obj\Debug\TrueTypeFontExtract.pdb
