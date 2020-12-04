@@ -13,19 +13,8 @@ namespace TrueTypeFontExtract
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine(Char.ConvertFromUtf32(47085));
-            Encoding gb = Encoding.GetEncoding("big5");
-             byte[] by = new byte[2];
-            by[0] = (byte)(64 / 100 + 64);
-            by[1] = (byte)(64 % 100 + 64);
-            var source = gb.GetString(by);
-
-            Console.WriteLine(source);
-            File.WriteAllText("D://output.txt", source);
-
-            //string str = GetFontChars("D://msjhl.ttc");
-            //File.WriteAllText("D://output.txt", str);
+            string str = GetFontChars("D://msjhl.ttc");
+            File.WriteAllText("D://output.txt", str);
         }
 
         /// <summary>
