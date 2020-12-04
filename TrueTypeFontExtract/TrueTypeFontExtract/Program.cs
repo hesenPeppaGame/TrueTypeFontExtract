@@ -13,8 +13,19 @@ namespace TrueTypeFontExtract
     {
         static void Main(string[] args)
         {
-            string str = GetFontChars("E://HYQiHei.ttf");
-            File.WriteAllText("D://output.txt", str);
+
+            Console.WriteLine(Char.ConvertFromUtf32(47085));
+            Encoding gb = Encoding.GetEncoding("big5");
+             byte[] by = new byte[2];
+            by[0] = (byte)(64 / 100 + 64);
+            by[1] = (byte)(64 % 100 + 64);
+            var source = gb.GetString(by);
+
+            Console.WriteLine(source);
+            File.WriteAllText("D://output.txt", source);
+
+            //string str = GetFontChars("D://msjhl.ttc");
+            //File.WriteAllText("D://output.txt", str);
         }
 
         /// <summary>
@@ -42,12 +53,14 @@ namespace TrueTypeFontExtract
             int count = 0;
             foreach (var item in map)
             {
-                var str = DecodeString(item.Value);
+                var str = DecodeString(item.Value); 
                 sb.Append(str);
                 if (count % 20 == 0)
                 {
                     sb.AppendLine();
                 }
+
+                count++;
             }
 
             return sb.ToString();
@@ -61,9 +74,12 @@ namespace TrueTypeFontExtract
         public static string DecodeString(ushort text)
         {
             StringBuilder builder = new StringBuilder();
-            builder.Append("\\u");
+            //builder.Append("\\u");
             builder.Append(UShortToHex(text));
-            return DecodeString(builder.ToString());
+            //return DecodeString(builder.ToString());
+
+            int num = Int32.Parse(builder.ToString(), System.Globalization.NumberStyles.HexNumber);
+            return Char.ConvertFromUtf32(num);
         }
 
         /// <summary>
