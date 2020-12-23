@@ -1,0 +1,6 @@
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\bin\Debug\FontCreater.exe.config
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\bin\Debug\FontCreater.exe
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\bin\Debug\FontCreater.pdb
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\obj\Debug\FontCreater.csprojAssemblyReference.cache
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\obj\Debug\FontCreater.exe
+C:\GitHub\TrueTypeFontExtract\TrueTypeFontExtract\FontCreater\obj\Debug\FontCreater.pdb

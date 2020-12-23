@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueTypeFontExtract", "TrueTypeFontExtract\TrueTypeFontExtract.csproj", "{10D2540C-50A9-47CF-970F-9F025EEBA4BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontCreater", "FontCreater\FontCreater.csproj", "{40F53CBD-AC6C-4FE8-B88C-0439B6DF52D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{10D2540C-50A9-47CF-970F-9F025EEBA4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D2540C-50A9-47CF-970F-9F025EEBA4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10D2540C-50A9-47CF-970F-9F025EEBA4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F53CBD-AC6C-4FE8-B88C-0439B6DF52D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F53CBD-AC6C-4FE8-B88C-0439B6DF52D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F53CBD-AC6C-4FE8-B88C-0439B6DF52D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F53CBD-AC6C-4FE8-B88C-0439B6DF52D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
